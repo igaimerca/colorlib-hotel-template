@@ -1,0 +1,16 @@
+@import '../../SCSS/variables';
+@import '../../SCSS/mixins';
+
+.booking {
+    width: 90%;
+    font-family: 'Roboto';
+    height: auto;
+    padding: 2rem;
+    background-color: $primaryColor;
+    margin: 1.5rem auto;
+    box-shadow: 0 15px 30px 0 rgb(0 0 0 / 10%);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}

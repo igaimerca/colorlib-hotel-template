@@ -1,0 +1,54 @@
+@import '../../SCSS/variables';
+@import '../../SCSS/mixins';
+
+.our-services {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin: 2rem auto;
+
+  &-header {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $secondaryColor;
+    padding-left: 1.5rem;
+  }
+
+  &-carousel-container {
+    width: 100%;
+    overflow: hidden;
+
+    .carousel {
+      width: max-content;
+      display: grid;
+      grid-template-columns: repeat(6, 320px);
+      gap: 1rem;
+      margin-top: 2rem;
+      padding-left: 1.5rem;
+      transition: transform 0.5s ease-in;
+
+      @include for-tablets {
+        grid-template-columns: repeat(6, 289px);
+      }
+      @include for-desktop {
+        grid-template-columns: repeat(6, 406px);
+      }
+    }
+
+    .nav-btn {
+      display: flex;
+      margin-top: 1rem;
+      margin-left: 1.5rem;
+      padding-bottom: 5px;
+    }
+  }
+
+  @include for-tablets {
+    width: 90%;
+  }
+
+  @include for-big-desktop {
+    width: 70%;
+  }
+}

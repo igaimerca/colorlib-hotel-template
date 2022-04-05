@@ -1,0 +1,28 @@
+@import './SCSS/_variables.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+  font-family: 'Work Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.anchor-hover {
+  cursor: pointer;
+
+  &:hover {
+    background-color: $highlight;
+    color: $primaryColor !important;
+  }
+}
+
+.anchor {
+  cursor: pointer;
+}

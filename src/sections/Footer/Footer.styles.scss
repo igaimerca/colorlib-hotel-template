@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    
+}
+
+.foot{
+    display: flex;
+    justify-content: space-between;
+    width: 1349px;
+    height: 475px;
+    background-color: #F8F9FA;
+    padding: 70px;
+}
+
+.subHeading{
+    font-family: 'Work Sans', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px;
+    font-size: 16px;
+    padding: 10px;
+}
+
+
+
+ul li{
+    list-style-type: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 21px;
+    color: #F8F9FA;
+    padding: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+li a:hover{
+    color: #000000;
+}
+
+.address {
+    color:rgba(0, 0, 0, 0.5) ;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding: 10px;
+}
+
+.social li{
+    display: inline;
+    border-radius: 50%;
+    background-color: #00917C;
+    color: #000000;
+    padding: 10px;
+    margin: 5px;
+}
+
+.social li:hover{
+    background-color: #00C4A8;
+    color: #000000;
+}
+
+@media (max-width: 900px){ 
+    
+    .foot{
+        flex-direction: column;
+        height: 100%;
+       
+    }
+}

@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    
+}
+
+.About_Us{
+    display: flex;
+    width: 1349px;
+    height: 573px;
+    margin-bottom: 40px;
+}
+
+.Image_Container{
+    width: 384px;
+    height: 573px;
+    background-color: #00917C;
+}
+
+img{
+    width: 534px;
+    height: 375px;
+    margin-left: 117px;
+    margin-top: 100px;
+}
+
+.info h2{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    line-height: 29px;
+    font-weight: 700;
+    color: #00917c;
+    padding: 10px;
+    margin-top: 150px;
+    margin-bottom: 28px;
+
+}
+
+.info{
+    background-color: #FFFFFF;
+    height: 573px;
+    width: 966px;
+    margin-left: 500px;
+    margin-right: 100px;
+}
+
+.info p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+
+}
+
+@media (max-width: 900px){ 
+    
+    .About_Us{
+        flex-direction: column;
+        height: 100%;
+        align-items:flex-start;
+        
+       
+    }
+
+    .Image_Container{
+        width: 384px;
+        height: 750px;
+        background-color: #00917C;
+    }
+
+    .info{
+        background-color: #FFFFFF;
+        height: 573px;
+        margin-left: 0;
+        margin-right: 50px;
+        padding: 10px;
+    }
+
+    .info h2{
+        font-family: 'Work Sans', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        line-height: 29px;
+        font-weight: 700;
+        color: #00917c;
+        padding: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    
+    }
+    img{
+        width: 696px;
+        height: 488px;
+            margin: 100px 0px 100px 30px;
+    }
+    
+}

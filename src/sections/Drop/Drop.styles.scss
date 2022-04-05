@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+    
+}
+
+.accordion{
+    width: 854px;
+    margin-top: 335px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.accordion-content{
+    background-color: #00826F;
+    padding: 10px;
+    transition: all 0.4s;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.5);
+    font-style: normal;
+    font-weight: 400;
+   
+}
+
+.accordion-title{
+    display: block;
+    cursor: pointer;
+    width: 100%;
+    text-align: left;
+    padding: 10px 10px 10px 0;
+    color: #212529;
+    transition: 0.4s;
+   
+}
+
+.accordion-title span{
+    float: right;
+    transition: 0.4s;
+}
+
+.accordion-item hr{
+    color: #00826F;
+}
+
+@media (max-width:890px) {
+    .accordion{
+        max-width: 487px;
+        
+    }
+    
+    
+}

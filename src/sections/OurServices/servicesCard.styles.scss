@@ -1,0 +1,45 @@
+@import '../../SCSS/variables';
+@import '../../SCSS/mixins';
+
+.carousel-item {
+  padding: 2rem;
+  background-color: $primaryColor;
+  box-shadow: 0 15px 30px 0 rgb(0 0 0 / 5%);
+
+  @include for-desktop {
+    padding: 3rem;
+  }
+
+  .icon {
+    width: 5rem;
+    height: 5rem;
+    color: $secondaryColor;
+  }
+
+  &-header {
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+
+  &-body {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 0.5rem;
+
+    &-text {
+      color: $highlight;
+      font-size: 0.875rem;
+    }
+
+    &-footer {
+      text-transform: uppercase;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0.1rem;
+      color: $highlight;
+      margin-top: 4rem;
+    }
+  }
+}

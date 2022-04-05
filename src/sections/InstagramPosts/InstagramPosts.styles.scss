@@ -1,0 +1,32 @@
+@import '../../SCSS/variables';
+@import '../../SCSS/mixins';
+
+.post-container {
+    width: 100%;
+    margin: 3rem 0;
+    overflow: hidden;
+    .post-inner-container {
+        background: blue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 159%;
+        margin: 1rem auto
+    }
+    .posts-header {
+        padding: 0 2rem;
+        margin: 2rem 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        .posts-title {
+            flex: 1;
+            color: $secondaryColor;
+        }
+        .posts-subtitle {
+            flex: 4;
+            color: $highlight;
+            font-family: 'Roboto';
+        }
+    }
+}

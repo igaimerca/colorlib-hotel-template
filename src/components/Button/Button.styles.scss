@@ -1,0 +1,10 @@
+@import '../../SCSS/variables';
+
+.btn {
+  font-size: 14px;
+  color: $highlight;
+  padding: 0.5rem 0.8rem;
+  box-shadow: 0 0 2px $mute;
+  border-radius: 1.25rem;
+  margin-right: 0.5rem;
+}

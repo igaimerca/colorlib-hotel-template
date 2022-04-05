@@ -10,7 +10,7 @@
 
 1. Fork or clone the repo
    ```sh
-   git clone https://github.com/melhemdirani/Reboost-Hotel-Template
+   git clone https://github.com/igaimerca/colorlib-hotel-template
    ```
 2. Install packages
    ```sh
